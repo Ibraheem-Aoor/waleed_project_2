@@ -6,7 +6,6 @@
 @section('content')
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
-<h5>TEST</h5>
 
         <!-- Content Header (Page header) -->
         @include('admin.partials.page-header', ['page' => __('custom.sidebar.Dashboard')])
