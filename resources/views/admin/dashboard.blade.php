@@ -4,9 +4,10 @@
     <link rel="stylesheet" href="{{ asset('plugins/datatables-bs4/css/dataTables.bootstrap4.css') }}">
 @endpush
 @section('content')
-<h5>TEST</h5>
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
+<h5>TEST</h5>
+
         <!-- Content Header (Page header) -->
         @include('admin.partials.page-header', ['page' => __('custom.sidebar.Dashboard')])
         <!-- Main content -->
