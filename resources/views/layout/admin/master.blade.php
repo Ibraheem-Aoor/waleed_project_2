@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ARCHPIX | Dashboard</title>
+    <title>نظام التعدات</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf" content="{{ csrf_token() }}">
@@ -98,13 +98,13 @@
 
         {{-- Modals --}}
         @include('partials.confirm-delete-modal')
-        <footer class="main-footer">
+        {{-- <footer class="main-footer">
             <strong>Copyright &copy; 2023<a href="#">ARCHPIX</a>.</strong>
             All rights reserved.
             <div class="float-right d-none d-sm-inline-block">
                 <b>Version</b> 1.0.0
             </div>
-        </footer>
+        </footer> --}}
 
         <!-- Control Sidebar -->
         <aside class="control-sidebar control-sidebar-dark">

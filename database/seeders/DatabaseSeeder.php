@@ -25,13 +25,13 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // \App\Models\User::factory(10)->create();
-        ProjectType::factory(5)->create();
-        ProjectAction::factory(5)->create();
-        ProjectBoard::factory(5)->create();
-        ProjectSector::factory(5)->create();
+        // ProjectType::factory(5)->create();
+        // ProjectAction::factory(5)->create();
+        // ProjectBoard::factory(5)->create();
+        // ProjectSector::factory(5)->create();
         \App\Models\User::factory()->create([
             'name' => 'admin',
-            'email'=> 'admin@archpix.com',
+            'email'=> 'waleed@gmail.com',
             'type' => 'admin',
             'password' => Hash::make('123456'),
         ]);

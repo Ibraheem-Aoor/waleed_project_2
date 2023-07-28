@@ -35,7 +35,7 @@ return [
     'budget_not_accepted'         =>      'الميزانية غير مقبولة',
     'project_budget'            =>      'ميزانية المشروع',
     'admin' =>      'المسؤول',
-    'ARCHPIX'   =>  'ARCHPIX',
+    'ARCHPIX'   =>  'نظام التعهدات',
     'project_transactions'  =>  'معاملات المشروع',
     'close'     =>  'إغلاق',
     'create'    =>  'إنشاء',
@@ -76,7 +76,7 @@ return [
 
 
     'pdf'  => [
-        'page_title'    =>  'للاستشارات الهندسية <span class="text-danger">ARCHPIX</span>',
+        'page_title'    =>  'للاستشارات الهندسية <span class="text-danger">نظام التعهدات</span>',
         'project_details'   =>  'بيانات المشروع',
         'project_phases'   =>  'مراحل المشروع',
         'total_paid'       =>   'إجمالي المدفوعات',
